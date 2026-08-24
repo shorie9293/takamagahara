@@ -1,0 +1,29 @@
+# .gitignore
+
+# シークレット・鍵
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+keystores/
+credentials.json
+token.json
+
+# 内部状態・メモリ
+memory/
+state/
+queue/
+*.log
+
+# 環境依存
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
